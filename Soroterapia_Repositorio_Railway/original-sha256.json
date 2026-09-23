@@ -1,0 +1,17 @@
+{
+  "plugin-original/.codex-plugin/plugin.json": "43039a7e30328957624a9ff48aab898aaa164c9191c0127dbbddfc6d040796d0",
+  "plugin-original/assets/gpt-icon.png": "8cd478ed2016c4855c3762beaee5528f22bca1c9769538f288bde5e30ecda85f",
+  "plugin-original/skills/instructions/SKILL.md": "221cf2cc1836db9ac3fb8ce7a21f5d35703f071aa8137c364d8efc9d13020069",
+  "plugin-original/skills/instructions/agents/openai.yaml": "8f507abb88e1c1357cf525ff4df19ac800b930f36778b30281c90ddf59596a41",
+  "plugin-original/skills/instructions/lookup/knowledge-index.json": "ed4b25bc216b63f773563b3d4544cf09b39f0f1741c0a3d9ba7623859299332e",
+  "plugin-original/skills/instructions/references/AGENTS.md": "f80496aab37a542a716161c879e4a2cc8d241b3e580bd094df6ad2ee4d46483b",
+  "plugin-original/skills/instructions/references/Calculadora Pediatria Soro de Manutenção.pdf": "4604df3a6c269d47cf4dd45d93dda38a937cdf1225095dfb731486cb9cd83b0c",
+  "plugin-original/skills/instructions/references/Calculadora Pediatria Soro de Manutenção.xlsx": "d46cb3a7d06f61f829c0cf91b73a0f044480cb1a47ca85ceeb18171b80cbb0e7",
+  "plugin-original/skills/instructions/references/INSTRUCOES_NUCLEARES_GPT_SOROTERAPIA_PEDIATRICA.md": "d0f7be5c4b4e75d4fecc4f76e136050def543d5e5a1bde8a09d8bfd5f8a081d2",
+  "plugin-original/skills/instructions/references/INSTRUCOES_PERSONALIZADAS_CHATGPT.txt": "ade4fa75f01ac7f13b0b87e54f405625d7545383ef12fe2acafe1a630192b4b7",
+  "plugin-original/skills/instructions/references/INSTRUÇÕES PRINCIPAIS.pdf": "518449698d90ab3247cad405901c5c777da963824dfd4ab612bc0ba1b95f06fa",
+  "plugin-original/skills/instructions/references/PROMPT_GPT_CALCULADORA_SORO_MANUTENCAO_PEDIATRICA.md": "cf4c7f7251bae0a7a9be04c2c1f24e6be1b14933610f0d6d764bf375c9c1bfa3",
+  "plugin-original/skills/instructions/references/Protocolo de Referência Clínica.pdf": "a2035808a98a937c95e9ab24d9f646916fed3fb259e3f43908050b21633adc99",
+  "plugin-original/skills/instructions/references/SOROTERAPIA DE MANUTENÇÃO.pdf": "137fd6cb195022e936a4a0c27912310ee4b37ff5dc512f44cdc17ab9c911f0ac",
+  "plugin-original/skills/instructions/references/regras ao codex.txt": "f80496aab37a542a716161c879e4a2cc8d241b3e580bd094df6ad2ee4d46483b"
+}

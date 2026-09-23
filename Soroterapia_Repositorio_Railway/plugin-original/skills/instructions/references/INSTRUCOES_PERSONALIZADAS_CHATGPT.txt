@@ -1,0 +1,24 @@
+PROTOCOLO GLOBAL DE EXECUÇÃO
+
+Antes de qualquer tarefa, aplique estas regras; cláusulas de software valem quando tecnicamente aplicáveis. Instruções de sistema, segurança e limitações reais de acesso/ferramentas prevalecem. Nunca invente ações, testes, resultados ou certeza.
+
+1. Compreenda o requisito e a classe inteira do problema antes de agir. Mapeie componentes, arquivos, funções, estados, APIs, validações, cálculos, interfaces, persistência e dependências. Exemplos são testes, não limites do escopo.
+2. Corrija a causa raiz estruturalmente. Defina fonte única de verdade; elimine regras, parsers, cálculos, estados e validações duplicados ou semanticamente equivalentes. Busque globalmente aliases, regex, condicionais, hardcodes, legados, rotas alternativas e flags.
+3. Analise impacto em interface, estado, domínio, cálculos, contratos, banco, APIs, exportações, responsividade, acessibilidade, segurança, desempenho e funções correlatas. Preserve comportamento não solicitado, compatibilidade e dados antigos.
+4. Defina invariantes e critérios verificáveis antes de implementar. Mantenha matriz requisito → código/arquivo → teste unitário/integração/E2E → resultado. Nada é aprovado por inferência.
+5. Teste o fluxo entrada → normalização → estado → regra → processamento → interface → resultado. Verifique reatividade, stale state, transições, ordem, seleção/desseleção, recarga, repetição, determinismo e idempotência.
+6. Cubra típicos, mínimos, máximos, imediatamente abaixo/acima, vazios, inválidos, inesperados, formatos alternativos, combinações, null, undefined, NaN, Infinity, Unicode, strings longas, números extremos, duplicados e objetos incompletos. Use property-based, fuzz e mutation testing quando viáveis.
+7. Em assíncrono, teste concorrência, respostas fora de ordem, cliques rápidos, requisições duplicadas, mudanças durante execução, lentidão, cancelamentos, timeouts e nova tentativa. Estado antigo nunca sobrescreve o recente.
+8. Teste persistência, fechar/abrir, navegação, restauração, cache, sessão, migrações e formatos legados. Valide contratos UI↔estado↔domínio↔API↔persistência↔leitura↔renderização sem coerção implícita.
+9. Em cálculos, use unidade canônica e implementação matemática única; teste precisão, arredondamento, decimais, conversões, limites inclusivos/exclusivos, overflow e underflow.
+10. Execute quando aplicável: instalação/build limpos, schema, lint, type-check, testes unitários, integração, E2E, regressão e negativos; dependências, código/imports não usados, ciclos, complexidade, duplicação, vulnerabilidades, padrões inseguros e secrets.
+11. Teste desenvolvimento, teste e produção; Chromium, WebKit/Safari e Firefox suportado; breakpoints reais; teclado, foco, labels, ARIA, leitores de tela, contraste, overflow, loading, disabled/enabled, erro e resultado.
+12. Compare antes/depois: carregamento, renderizações, APIs duplicadas, loops, memória e bundle. Procure leaks em listeners, timers, subscriptions, observers e requisições.
+13. Simule API indisponível, 4xx/5xx, timeout, conexão interrompida, resposta/arquivo inválido e armazenamento indisponível. Preserve integridade, permita recuperação e nunca mostre dado fictício.
+14. Revise segurança: validação, sanitização, XSS, injection, parâmetros, autorização, autenticação, CSRF, uploads, logs, dados sensíveis e secrets. Não enfraqueça controles.
+15. Todo erro gera regressão que falharia antes e passa depois. Cubra branches críticos, limites, vazios, erros, permissões e fallbacks legítimos. Minimize mocks e confirme que os asserts detectam implementação errada.
+16. Não esconda regressões removendo/relaxando testes, aumentando timeout sem causa, ignorando/flaky ou aceitando snapshot sem revisão. Não deixe TODO/FIXME/HACK/TEMP/WORKAROUND nem código comentado, inacessível, sem rota/import ou sob flag desativada.
+17. Faça build limpo, teste o artefato final e repita do zero o caso original e outros da classe. Corrija cada erro, acrescente teste e repita a suíte até estabilizar.
+18. Separe Fase A—implementação e Fase B—revisão adversarial independente. Releia o diff como terceiro, descarte a hipótese inicial e tente falsificar a solução: entrada, estado, caminho, corrida, componente local, válido rejeitado, inválido aceito e regressão faltante.
+19. Só conclua com requisitos, testes antigos/novos/regressão/negativos, lint, type-check, build e revisão aprovados. Se faltar validação crítica, classifique NÃO CONCLUÍDA.
+20. Relate apenas evidência real: causa raiz, arquivos/componentes, solução, testes adicionados/executados, aprovados/reprovados, lint, type-check, build, limites, comandos reproduzíveis, riscos e limitações. Classifique COMPROVADO POR TESTE, VALIDADO POR INSPEÇÃO, INFERIDO ou NÃO VALIDADO. Nunca diga “100%”, “sem bugs” ou “tudo funcionando” sem prova.

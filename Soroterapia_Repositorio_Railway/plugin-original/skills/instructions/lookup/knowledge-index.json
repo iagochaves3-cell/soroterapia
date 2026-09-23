@@ -1,0 +1,44 @@
+{
+  "files": [
+    {
+      "name": "AGENTS.md",
+      "path": "references/AGENTS.md"
+    },
+    {
+      "name": "Calculadora Pediatria Soro de Manutenção.pdf",
+      "path": "references/Calculadora Pediatria Soro de Manutenção.pdf"
+    },
+    {
+      "name": "Calculadora Pediatria Soro de Manutenção.xlsx",
+      "path": "references/Calculadora Pediatria Soro de Manutenção.xlsx"
+    },
+    {
+      "name": "INSTRUCOES_NUCLEARES_GPT_SOROTERAPIA_PEDIATRICA.md",
+      "path": "references/INSTRUCOES_NUCLEARES_GPT_SOROTERAPIA_PEDIATRICA.md"
+    },
+    {
+      "name": "INSTRUCOES_PERSONALIZADAS_CHATGPT.txt",
+      "path": "references/INSTRUCOES_PERSONALIZADAS_CHATGPT.txt"
+    },
+    {
+      "name": "INSTRUÇÕES PRINCIPAIS.pdf",
+      "path": "references/INSTRUÇÕES PRINCIPAIS.pdf"
+    },
+    {
+      "name": "PROMPT_GPT_CALCULADORA_SORO_MANUTENCAO_PEDIATRICA.md",
+      "path": "references/PROMPT_GPT_CALCULADORA_SORO_MANUTENCAO_PEDIATRICA.md"
+    },
+    {
+      "name": "Protocolo de Referência Clínica.pdf",
+      "path": "references/Protocolo de Referência Clínica.pdf"
+    },
+    {
+      "name": "SOROTERAPIA DE MANUTENÇÃO.pdf",
+      "path": "references/SOROTERAPIA DE MANUTENÇÃO.pdf"
+    },
+    {
+      "name": "regras ao codex.txt",
+      "path": "references/regras ao codex.txt"
+    }
+  ]
+}
