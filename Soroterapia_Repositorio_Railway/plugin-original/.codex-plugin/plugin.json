@@ -1,0 +1,22 @@
+{
+  "author": {
+    "name": "Iago Almeida"
+  },
+  "description": "SOROTERAPIA DE EXPANSAO E MANUTENÇÃO CONFORME PESO DO PACIENTE",
+  "interface": {
+    "capabilities": [
+      "skills"
+    ],
+    "category": "Other",
+    "composerIcon": "./assets/gpt-icon.png",
+    "defaultPrompt": [],
+    "developerName": "Iago Almeida",
+    "displayName": "SOROTERAPIA",
+    "logo": "./assets/gpt-icon.png",
+    "longDescription": "SOROTERAPIA DE EXPANSAO E MANUTENÇÃO CONFORME PESO DO PACIENTE",
+    "shortDescription": "SOROTERAPIA DE EXPANSAO E MANUTENÇÃO CONFORME PESO DO PACIENTE"
+  },
+  "name": "gpt-937da51c32c58cf64105c492e5c6fb9d",
+  "skills": "./skills/",
+  "version": "0.2.1+bundle.7fc396faf797e8ed3521d64d6b50ec92"
+}
